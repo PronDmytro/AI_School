@@ -1,0 +1,24 @@
+Автоматизована система обліку постачання в аптечні кіоски міста
+
+[studentsClasses]
+	id
+	className
+	studentsCount
+	classTeacher
+	comment
+		
+[teachers]
+	id		-	ID 
+	name		-	ПІБ
+	experience	-	стаж
+	subjects	-	предмети
+
+
+[schedule]
+	id
+	teacherId
+	studentsClassId	-	id продукта
+	lessonNumber	-	номер урока
+	lesson_dt	-	дата урока
+
+
